@@ -7,6 +7,7 @@ This project allows users to interact with PDF documents using a conversational 
 Upload PDFs: Users can upload one or more PDF documents, and the app extracts text for further interaction.
 Conversational Q&A: Users can ask questions based on the content of the uploaded PDFs, and the system will retrieve relevant answers using FAISS-based vector search and Google Generative AI (Gemini) for question-answering.
 Appointment Booking: Users can book appointments by providing details like name, phone number, email, and preferred date. The app validates the inputs and confirms the booking.
+
 📚 Libraries & Technologies:
 Streamlit: For creating the interactive web interface.
 Google Generative AI (Gemini): Powering the question-answering model and embedding generation.

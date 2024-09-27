@@ -16,11 +16,13 @@ PyPDF2: For extracting text from PDF documents.
 LangChain: For handling the question-answering chain.
 Pydantic: For validating user input (appointment booking).
 dotenv: For managing environment variables securely.
+
 🚀 How It Works:
 Upload PDF Documents: Users upload PDFs via the sidebar, and the app extracts text using PyPDF2.
 Text Processing: The extracted text is split into chunks for better retrieval performance.
 Conversational Interface: Users can ask questions related to the PDF content, and the app uses embeddings and a conversational chain to return accurate answers.
 Appointment Booking: The app allows users to book appointments by parsing natural language dates (e.g., "next Monday") and validating inputs like phone numbers and emails.
+
 📂 Project Structure:
 app.py: Main application file containing the Streamlit interface and core logic.
 .env: Environment variables file containing API keys for Google Generative AI.
